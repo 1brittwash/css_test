@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  outline-color: #333;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 3px;
+  mix-blend-mode: normal;
+}
